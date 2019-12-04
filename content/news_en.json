@@ -1,0 +1,11 @@
+newsEn = `[
+    {
+        "title": "My first craft fair!",
+        "publish_date": "2019-12-03 00:00:02",
+        "unpublish_date": "2020-05-18 00:00:00",
+        "description": "Tisak à Morin will be at its first craft fair on May 16-17 2020 at the St-Ambroise parish",
+        "image": "https://scontent.fymq3-1.fna.fbcdn.net/v/t1.0-9/77394081_1678391858963273_5796505407623004160_n.jpg?_nc_cat=108&_nc_ohc=iEMD1KsYFCoAQmY1_aesFZ1OQc0AmYw9cd4oPaXKX2Bj3G5nEannnHnrQ&_nc_ht=scontent.fymq3-1.fna&oh=581fa941f51812d368e2ebb3c6fb41fe&oe=5E872B2B",
+        "link": "https://www.facebook.com/events/2629462623766641/",
+        "link_text": "Link to the event (french only)" 
+    }
+]`;

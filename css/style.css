@@ -1,0 +1,108 @@
+/*!
+ * Start Bootstrap - One Page Wonder v5.0.7 (https://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Lato';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran';
+  font-weight: 800 !important;
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-custom .navbar-brand {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+header.masthead {
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(0rem + 21px);
+    padding-bottom: 7rem;  
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url(https://res.cloudinary.com/tisakamorin/image/upload/v1575418739/IMG_20190429_183740_669_2019-12-03T23_07_22.967_tc8jwo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+    background: url('https://res.cloudinary.com/tisakamorin/image/upload/v1575418764/TisakaMorin_NoBG_WhiteFt_1_eflwzv.png');
+    background-repeat: no-repeat;
+    height: 22rem;
+    background-position: center;
+    background-size: contain;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 2rem;
+  text-shadow: 1px 1px black;
+}
+
+.btn-xl {
+    padding: 1.5rem 2rem;
+}
+  
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(3rem + 40px);
+    padding-bottom: 4rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem;
+  }
+  .btn-xl {
+      padding: 1.5rem 3rem;
+  }
+}
+
+.news-template {
+    display:none;
+}
+
+.hidden {
+    display:none;
+}
