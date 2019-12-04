@@ -12,7 +12,9 @@ class TisakAMorin
     static get CURRENTYEAR() {
         return document.querySelector('.current-year');
     }
-    
+    static get PRIVACYEMAIL() {
+        return document.querySelector('.privacy-email');
+    }
     constructor(language)
     {
         this.language = language;
@@ -63,6 +65,9 @@ class TisakAMorin
         
         TisakAMorin.CONTACTEMAIL.href = 'mailto:' + link + '?Subject=' + subject;
         TisakAMorin.CONTACTEMAIL.textContent = link;
+        if (TisakAMorin.PRIVACYEMAIL) {
+            TisakAMorin.PRIVACYEMAIL.href = 'mailto:' + link + '?Subject=' + subject;
+        }
     }
     
     /**
@@ -74,8 +79,14 @@ class TisakAMorin
         let allNews;
 
         if (this.language == 'fr') {
+            if (typeof news =='undefined') {
+                return;
+            }
             allNews = JSON.parse(news);
         } else {
+            if (typeof newsEn =='undefined') {
+                return;
+            }
             allNews = JSON.parse(newsEn);
         }
 
