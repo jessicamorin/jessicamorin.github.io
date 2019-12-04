@@ -81,8 +81,6 @@ class TisakAMorin
 
         let now = new Date();
 
-        console.log(now);
-
         allNews.sort(this.compareDate);
 
         allNews.forEach((news) => {
