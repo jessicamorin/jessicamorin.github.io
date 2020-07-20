@@ -1,0 +1,337 @@
+fabric = `[
+    {
+        "title": "Blanc",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isNew": false, 
+		"isPopular": false,
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/blanc_bfmr43.jpg"
+    },
+	{
+        "title": "Blue Jays",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/blue_jays_qg3oab.jpg"
+    },
+	{
+        "title": "Couleurs abstraites",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": true, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/abstrait_couleurs_dmi6uu.jpg"
+    },
+	{
+        "title": "Bleu",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/bleu_mencon.jpg"
+    },
+	{
+        "title": "Abstrait noir & blanc",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": true, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/abtrait_noir_et_blanc_dk256c.jpg"
+    },
+	{
+        "title": "Arc-en-ciel",
+		"isSoldOut": false,
+		"hasLimitedQuantity": true,
+		"isPopular": false,
+		"isNew": true, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/arc_en_ciel_lbgpqk.jpg"
+    },
+	{
+        "title": "Bouquet de fleurs",
+		"isSoldOut": false,
+		"hasLimitedQuantity": true,
+		"isPopular": false,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/bouquet_de_fleur_gris_gw4pkj.jpg"
+    },
+	{
+        "title": "Face de chats",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": true,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/chats_blancs_sur_noir_pzvjmx.jpg"
+    }
+	,
+	{
+        "title": "Citrouilles",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": true, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/citrouilles_frsfff.jpg"
+    }
+	,
+	{
+        "title": "Carreauté gris",
+		"isSoldOut": false,
+		"hasLimitedQuantity": true,
+		"isPopular": true,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/carreaut%C3%A9_gris_f0wzux.jpg"
+    }	,
+	{
+        "title": "Feuilles grises",
+		"isSoldOut": false,
+		"hasLimitedQuantity": true,
+		"isPopular": true,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/feuilles_grises_lwrlfv.jpg"
+    }	,
+	{
+        "title": "Canada",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": true, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/canada_s0f3fu.jpg"
+    }	,
+	{
+        "title": "Grosses fleurs",
+		"isSoldOut": false,
+		"hasLimitedQuantity": true,
+		"isPopular": true,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/grosse_fleur_grise_cxvwjt.jpg"
+    }	,
+	{
+        "title": "Fleurs grises et mauves",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/fleurs_mauves_et_grises_w0ixe2.jpg"
+    },
+	{
+        "title": "Fées",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/f%C3%A9es_evfpot.jpg"
+    },
+	{
+        "title": "Flocons de neige",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/flocons_de_neige_wx55bp.jpg"
+    },
+	{
+        "title": "Feuilles vertes",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/feuilles_vertes_bsjawp.jpg"
+    },
+	{
+        "title": "Hiboux jaunes",
+		"isSoldOut": false,
+		"hasLimitedQuantity": true,
+		"isPopular": false,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/hiboux_haunes_cb7iz2.jpg"
+    },
+	{
+        "title": "Hiboux bleus",
+		"isSoldOut": false,
+		"hasLimitedQuantity": true,
+		"isPopular": false,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/hiboux_bleus_hfnaon.jpg"
+    },
+	{
+        "title": "Hiboux roses",
+		"isSoldOut": false,
+		"hasLimitedQuantity": true,
+		"isPopular": false,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/hiboux_roses_c6ke1l.jpg"
+    },
+	{
+        "title": "Lapins",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": true, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/lapins_ldgajz.jpg"
+    },
+	{
+        "title": "Harry Potter",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": true, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/harry_potter_kxggxl.jpg"
+    },
+	{
+        "title": "Noir",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": true, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/noir_rezsbe.jpg"
+    },
+	{
+        "title": "Habs",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/habs_hrtxec.jpg"
+    },
+	{
+        "title": "Parapluies",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/parapluies_ucsnst.jpg"
+    },
+	{
+        "title": "Petites fleurs",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/petite_fleur_etvzgk.jpg"
+    },
+	{
+        "title": "John Deer",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": true, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/john_deere_dc9foo.jpg"
+    },
+	{
+        "title": "Points blancs sur gris",
+		"isSoldOut": false,
+		"hasLimitedQuantity": true,
+		"isPopular": true,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/points_blancs_sur_gris_kdpaoz.jpg"
+    },
+	{
+        "title": "Points blancs sur bleu",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": true, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/points_blancs_sur_bleu_sgr5hv.jpg"
+    },
+	{
+        "title": "Points blancs sur noir - 1",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": true,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/points_blancs_sur_noir_e2iw2i.jpg"
+    },
+	{
+        "title": "FAQ du Canada",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/q_a_canada_l2qhwj.jpg"
+    },
+	{
+        "title": "Tie dye",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": true, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/tie_dye_erarfr.jpg"
+    },
+	{
+        "title": "Tourbillons blancs",
+		"isSoldOut": false,
+		"hasLimitedQuantity": true,
+		"isPopular": false,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/tourbillons_blancs_sur_gris_eninfj.jpg"
+    },
+	{
+        "title": "Points blancs sur noir - 2",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": true, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/points_blancs_sur_noir_v2_kj4iua.jpg"
+    },
+	{
+        "title": "Tournesols",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/tournesols_tns45f.jpg"
+    },
+	{
+        "title": "Ratons-laveurs",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": true, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/ratons_laveurs_oj3jit.jpg"
+    },
+	{
+        "title": "Village de Noël",
+		"isSoldOut": false,
+		"hasLimitedQuantity": false,
+		"isPopular": false,
+		"isNew": false, 
+		"description": "100% coton",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/c_mpad,g_center,q_80,w_600/village_de_noel_pk6m3x.jpg"
+    }
+]`;

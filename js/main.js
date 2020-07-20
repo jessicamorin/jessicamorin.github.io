@@ -1,26 +1,19 @@
 class TisakAMorin
 {
-    static get NEWSCONTAINER() {
-        return document.querySelector('.news-container');
-    }
-    static get NEWSTEMPLATE() {
-        return document.querySelector('.news-template');
-    }
-    static get CONTACTEMAIL() {
-        return document.querySelector('.contact-email');
-    }
-    static get CURRENTYEAR() {
-        return document.querySelector('.current-year');
-    }
-    static get PRIVACYEMAIL() {
-        return document.querySelector('.privacy-email');
-    }
     constructor(language)
     {
-        this.language = language;
+		 
+	    this.language = language;
         this.addEmailAddress();
         this.displayCurrentYear();
         this.readNews();
+		this.displayFabricList();
+		
+		window.addEventListener('scroll', this.displayImages);
+        window.addEventListener('load', this.displayImages);
+        window.addEventListener('resize', this.displayImages);
+		
+
     }
     
     /**
@@ -31,7 +24,7 @@ class TisakAMorin
     {
         let now = new Date();
         let year = now.getFullYear();
-        TisakAMorin.CURRENTYEAR.textContent = year;
+        document.querySelector('.current-year').textContent = year;
     }
 
     /**
@@ -63,13 +56,73 @@ class TisakAMorin
             subject = 'Information request';
         }
         
-        TisakAMorin.CONTACTEMAIL.href = 'mailto:' + link + '?Subject=' + subject;
-        TisakAMorin.CONTACTEMAIL.textContent = link;
-        if (TisakAMorin.PRIVACYEMAIL) {
-            TisakAMorin.PRIVACYEMAIL.href = 'mailto:' + link + '?Subject=' + subject;
+        document.querySelector('.contact-email').href = 'mailto:' + link + '?Subject=' + subject;
+        document.querySelector('.contact-email').textContent = link;
+        if (document.querySelector('.privacy-email')) {
+            document.querySelector('.privacy-email').href = 'mailto:' + link + '?Subject=' + subject;
         }
     }
     
+	displayFabricList()
+	{
+		let allFabric = JSON.parse(fabric);
+		allFabric.sort(this.isNew);
+		allFabric.sort(this.hasLimitedQuantity);
+		     
+		allFabric.forEach((fabric) => {
+			this.addFabric(fabric);
+		});
+	}
+	
+	displayImages()
+	{
+        var elements = document.querySelectorAll("*[realsrc]");
+        for (var i = 0; i < elements.length; i++) {
+			var boundingClientRect = elements[i].getBoundingClientRect();
+			if (elements[i].hasAttribute("realsrc") && boundingClientRect.top < window.innerHeight) {
+				elements[i].setAttribute("src", elements[i].getAttribute("realsrc"));
+				elements[i].removeAttribute("realsrc");
+			}
+        };
+	}
+        
+	addFabric(fabric) 
+	{
+		 
+	   // Create fabric from template
+        let fabricTemplate = document.querySelector('.fabric-container-template');
+        let newFabric = fabricTemplate.cloneNode(true);
+        newFabric.classList.remove('fabric-container-template');
+
+        // Add properties
+		if (newFabric.isNew == true) {
+			newFabric.querySelector('.label-tags.is-new').classList.remove('hidden');
+		}
+		if (newFabric.isPopular == true) {
+			newFabric.querySelector('.label-tags.is-popular').classList.remove('hidden');
+		}
+		if (newFabric.isSoldOut == true) {
+			newFabric.querySelector('.label-tags.is-soldout').classList.remove('hidden');
+		}
+		if (newFabric.hasLimitedQuantity == true) {
+			newFabric.querySelector('.label-tags.has-limited-quantity').classList.remove('hidden');
+		}
+		
+		newFabric.querySelector('.fabric-name').textContent = fabric.title;
+		newFabric.querySelector('.fabric-description').textContent = fabric.description;
+		
+		/*var downloadingImage = new Image();
+		downloadingImage.onload = function(){
+			newFabric.querySelector('.fabric-image').src = this.src;   
+		};*/
+		
+		newFabric.querySelector('.fabric-image').setAttribute("realsrc", fabric.image);
+		
+        // Add fabric to fabric list
+        document.querySelector('.fabric-listing').appendChild(newFabric);
+
+	}
+	
     /**
      * Read the json file base on the language
      * @returns {void}
@@ -100,7 +153,7 @@ class TisakAMorin
 
             if (now > publishDate && now < unpublishDate) {
                 let newsItem = this.addNews(news);
-                if (TisakAMorin.NEWSCONTAINER.querySelectorAll('.news-section').length % 2 == 1) {
+                if (document.querySelectorAll('.news-container .news-section').length % 2 == 1) {
                     newsItem.querySelector('.first-column').classList.add('order-lg-2');
                     newsItem.querySelector('.second-column').classList.add('order-lg-1');
                 }
@@ -116,7 +169,7 @@ class TisakAMorin
     addNews(news)
     {
         // Create news from template
-        let newsTemplate = TisakAMorin.NEWSTEMPLATE;
+        let newsTemplate = document.querySelector('.news-template');
         let newNews = newsTemplate.cloneNode(true);
         newNews.classList.remove('news-template');
 
@@ -128,7 +181,7 @@ class TisakAMorin
         this.addImage(newNews, news.image);
 
         // Add news to news list
-        TisakAMorin.NEWSCONTAINER.appendChild(newNews);
+        document.querySelector('.news-container').appendChild(newNews);
 
         return newNews;
     }
@@ -202,3 +255,20 @@ class TisakAMorin
         return new Date(b.publish_date) - new Date(a.publish_date);
     }
 }
+
+/*
+var modal = document.getElementById("myModal");
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
+}*/
