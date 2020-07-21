@@ -6,7 +6,8 @@ fabric = `[
 		"isNew": false, 
 		"isPopular": false,
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/blanc_bfmr43.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/blanc_bfmr43.jpg",
+        "fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_500/blanc_bfmr43.jpg"
     },
 	{
         "title": "Blue Jays",
@@ -15,7 +16,8 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/blue_jays_qg3oab.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/blue_jays_qg3oab.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/blue_jays_qg3oab.jpg"
     },
 	{
         "title": "Couleurs abstraites",
@@ -24,7 +26,8 @@ fabric = `[
 		"isPopular": false,
 		"isNew": true, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/abstrait_couleurs_dmi6uu.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/abstrait_couleurs_dmi6uu.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/abstrait_couleurs_dmi6uu.jpg"
     },
 	{
         "title": "Bleu",
@@ -33,7 +36,8 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/bleu_mencon.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/bleu_mencon.jpg",
+        "fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/bleu_mencon.jpg"
     },
 	{
         "title": "Abstrait noir & blanc",
@@ -42,7 +46,8 @@ fabric = `[
 		"isPopular": false,
 		"isNew": true, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/abtrait_noir_et_blanc_dk256c.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/abtrait_noir_et_blanc_dk256c.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/abtrait_noir_et_blanc_dk256c.jpg"
     },
 	{
         "title": "Arc-en-ciel",
@@ -51,7 +56,8 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/arc_en_ciel_lbgpqk.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/arc_en_ciel_lbgpqk.jpg",
+        "fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/arc_en_ciel_lbgpqk.jpg"
     },
 	{
         "title": "Bouquet de fleurs",
@@ -60,7 +66,8 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/bouquet_de_fleur_gris_gw4pkj.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/bouquet_de_fleur_gris_gw4pkj.jpg",
+        "fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/bouquet_de_fleur_gris_gw4pkj.jpg"
     },
 	{
         "title": "Face de chats",
@@ -69,7 +76,8 @@ fabric = `[
 		"isPopular": true,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/chats_blancs_sur_noir_pzvjmx.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/chats_blancs_sur_noir_pzvjmx.jpg",
+        "fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/chats_blancs_sur_noir_pzvjmx.jpg"
     }
 	,
 	{
@@ -79,7 +87,8 @@ fabric = `[
 		"isPopular": false,
 		"isNew": true, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/citrouilles_frsfff.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/citrouilles_frsfff.jpg",
+        "fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/citrouilles_frsfff.jpg"
     }
 	,
 	{
@@ -89,7 +98,8 @@ fabric = `[
 		"isPopular": true,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/carreaut%C3%A9_gris_f0wzux.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/carreaut%C3%A9_gris_f0wzux.jpg",
+        "fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/carreaut%C3%A9_gris_f0wzux.jpg"
     }	,
 	{
         "title": "Feuilles grises",
@@ -98,7 +108,8 @@ fabric = `[
 		"isPopular": true,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/feuilles_grises_lwrlfv.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/feuilles_grises_lwrlfv.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/feuilles_grises_lwrlfv.jpg"
     }	,
 	{
         "title": "Canada",
@@ -107,7 +118,8 @@ fabric = `[
 		"isPopular": false,
 		"isNew": true, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/canada_s0f3fu.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/canada_s0f3fu.jpg",
+        "fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/canada_s0f3fu.jpg"
     }	,
 	{
         "title": "Grosses fleurs",
@@ -116,7 +128,8 @@ fabric = `[
 		"isPopular": true,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/grosse_fleur_grise_cxvwjt.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/grosse_fleur_grise_cxvwjt.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/grosse_fleur_grise_cxvwjt.jpg"
     }	,
 	{
         "title": "Fleurs grises et mauves",
@@ -125,7 +138,8 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/fleurs_mauves_et_grises_w0ixe2.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/fleurs_mauves_et_grises_w0ixe2.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/fleurs_mauves_et_grises_w0ixe2.jpg"
     },
 	{
         "title": "Fées",
@@ -134,7 +148,8 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/f%C3%A9es_evfpot.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/f%C3%A9es_evfpot.jpg",
+        "fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/f%C3%A9es_evfpot.jpg"
     },
 	{
         "title": "Flocons de neige",
@@ -143,7 +158,8 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/flocons_de_neige_wx55bp.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/flocons_de_neige_wx55bp.jpg",
+        "fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/flocons_de_neige_wx55bp.jpg"
     },
 	{
         "title": "Feuilles vertes",
@@ -152,7 +168,8 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/feuilles_vertes_bsjawp.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/feuilles_vertes_bsjawp.jpg",
+        "fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/feuilles_vertes_bsjawp.jpg"
     },
 	{
         "title": "Hiboux jaunes",
@@ -161,7 +178,8 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/hiboux_haunes_cb7iz2.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/hiboux_haunes_cb7iz2.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/hiboux_haunes_cb7iz2.jpg"
     },
 	{
         "title": "Hiboux bleus",
@@ -170,7 +188,8 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/hiboux_bleus_hfnaon.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/hiboux_bleus_hfnaon.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/hiboux_bleus_hfnaon.jpg"
     },
 	{
         "title": "Hiboux roses",
@@ -179,7 +198,9 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/hiboux_roses_c6ke1l.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/hiboux_roses_c6ke1l.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/hiboux_roses_c6ke1l.jpg"
+
     },
 	{
         "title": "Lapins",
@@ -188,7 +209,9 @@ fabric = `[
 		"isPopular": false,
 		"isNew": true, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/lapins_ldgajz.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/lapins_ldgajz.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/lapins_ldgajz.jpg"
+
     },
 	{
         "title": "Harry Potter",
@@ -197,7 +220,9 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/harry_potter_kxggxl.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/harry_potter_kxggxl.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/harry_potter_kxggxl.jpg"
+
     },
 	{
         "title": "Noir",
@@ -206,7 +231,9 @@ fabric = `[
 		"isPopular": false,
 		"isNew": true, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/noir_rezsbe.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/noir_rezsbe.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/noir_rezsbe.jpg"
+
     },
 	{
         "title": "Habs",
@@ -215,7 +242,9 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/habs_hrtxec.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/habs_hrtxec.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/habs_hrtxec.jpg"
+
     },
 	{
         "title": "Parapluies",
@@ -224,7 +253,9 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/parapluies_ucsnst.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/parapluies_ucsnst.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/parapluies_ucsnst.jpg"
+
     },
 	{
         "title": "Petites fleurs",
@@ -233,7 +264,9 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/petite_fleur_etvzgk.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/petite_fleur_etvzgk.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/petite_fleur_etvzgk.jpg"
+
     },
 	{
         "title": "John Deer",
@@ -242,7 +275,9 @@ fabric = `[
 		"isPopular": false,
 		"isNew": true, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/john_deere_dc9foo.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/john_deere_dc9foo.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/john_deere_dc9foo.jpg"
+
     },
 	{
         "title": "Points blancs sur gris",
@@ -251,7 +286,9 @@ fabric = `[
 		"isPopular": true,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/points_blancs_sur_gris_kdpaoz.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/points_blancs_sur_gris_kdpaoz.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/points_blancs_sur_gris_kdpaoz.jpg"
+
     },
 	{
         "title": "Points blancs sur bleu",
@@ -260,7 +297,9 @@ fabric = `[
 		"isPopular": false,
 		"isNew": true, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/points_blancs_sur_bleu_sgr5hv.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/points_blancs_sur_bleu_sgr5hv.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/points_blancs_sur_bleu_sgr5hv.jpg"
+
     },
 	{
         "title": "Points blancs sur noir - 1",
@@ -269,7 +308,9 @@ fabric = `[
 		"isPopular": true,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/points_blancs_sur_noir_e2iw2i.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/points_blancs_sur_noir_e2iw2i.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/points_blancs_sur_noir_e2iw2i.jpg"
+
     },
 	{
         "title": "FAQ du Canada",
@@ -278,7 +319,9 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/q_a_canada_l2qhwj.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/q_a_canada_l2qhwj.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/q_a_canada_l2qhwj.jpg"
+
     },
 	{
         "title": "Tie dye",
@@ -287,7 +330,8 @@ fabric = `[
 		"isPopular": false,
 		"isNew": true, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/tie_dye_erarfr.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/tie_dye_erarfr.jpg",
+        "fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/tie_dye_erarfr.jpg"
     },
 	{
         "title": "Tourbillons blancs",
@@ -296,7 +340,9 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/tourbillons_blancs_sur_gris_eninfj.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/tourbillons_blancs_sur_gris_eninfj.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/tourbillons_blancs_sur_gris_eninfj.jpg"
+
     },
 	{
         "title": "Points blancs sur noir - 2",
@@ -305,7 +351,9 @@ fabric = `[
 		"isPopular": false,
 		"isNew": true, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/points_blancs_sur_noir_v2_kj4iua.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/points_blancs_sur_noir_v2_kj4iua.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/points_blancs_sur_noir_v2_kj4iua.jpg"
+
     },
 	{
         "title": "Tournesols",
@@ -314,7 +362,9 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/tournesols_tns45f.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/tournesols_tns45f.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/tournesols_tns45f.jpg"
+
     },
 	{
         "title": "Ratons-laveurs",
@@ -323,7 +373,9 @@ fabric = `[
 		"isPopular": false,
 		"isNew": true, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/ratons_laveurs_oj3jit.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/ratons_laveurs_oj3jit.jpg", 
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/ratons_laveurs_oj3jit.jpg"
+
     },
 	{
         "title": "Village de Noël",
@@ -332,6 +384,7 @@ fabric = `[
 		"isPopular": false,
 		"isNew": false, 
 		"description": "100% coton",
-        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/village_de_noel_pk6m3x.jpg"
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/h_300,q_auto/village_de_noel_pk6m3x.jpg",
+		"fullimage": "https://res.cloudinary.com/tisakamorin/image/upload/h_700/village_de_noel_pk6m3x.jpg"
     }
 ]`;

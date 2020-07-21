@@ -132,10 +132,32 @@ class TisakAMorin
 		};		
 		
 		newFabric.querySelector('.fabric-image').setAttribute("realsrc", fabric.image);
+		newFabric.querySelector('.fabric-image').setAttribute("fullimage", fabric.fullimage);
+		newFabric.querySelector('.fabric-image').addEventListener('click', ()=>{
+			this.displayFabricInModal(newFabric.querySelector('.fabric-image'), fabric);	
+		});
 
         // Add fabric to fabric list
         document.querySelector('.fabric-listing').appendChild(newFabric);
 
+	}
+	
+	displayFabricInModal(newFabric, fabricInfo)
+	{
+		
+		var modal = document.getElementById("myModal");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		
+		modal.style.display = "block";
+	 	modalImg.src = newFabric.getAttribute("fullimage");
+		captionText.innerHTML = fabricInfo.title;
+
+		var span = modal.querySelector('.close');
+
+		span.addEventListener('click', ()=>{
+			modal.style.display = "none";
+		});
 	}
 	
     /**
@@ -270,20 +292,3 @@ class TisakAMorin
         return new Date(b.publish_date) - new Date(a.publish_date);
     }
 }
-
-/*
-var modal = document.getElementById("myModal");
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-
-var span = document.getElementsByClassName("close")[0];
-
-span.onclick = function() {
-  modal.style.display = "none";
-}*/
