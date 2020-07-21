@@ -66,11 +66,26 @@ class TisakAMorin
 	displayFabricList()
 	{
 		let allFabric = JSON.parse(fabric);
-		allFabric.sort(this.isNew);
-		allFabric.sort(this.hasLimitedQuantity);
+			
+		this.sortFabricByHasLimitedQuantity(allFabric);
+		this.sortFabricByIsNew(allFabric);
 		     
 		allFabric.forEach((fabric) => {
 			this.addFabric(fabric);
+		});
+	}
+		
+	sortFabricByHasLimitedQuantity(allFabric)
+	{
+		allFabric.sort((x, y) => {
+			return (x.hasLimitedQuantity === y.hasLimitedQuantity)? 0 : x.hasLimitedQuantity? -1 : 1;
+		});
+	}
+	
+	sortFabricByIsNew(allFabric)
+	{
+		allFabric.sort((x, y) => {
+			return (x.isNew === y.isNew)? 0 : x.isNew? -1 : 1;
 		});
 	}
 	
@@ -95,29 +110,29 @@ class TisakAMorin
         newFabric.classList.remove('fabric-container-template');
 
         // Add properties
-		if (newFabric.isNew == true) {
+		if (fabric.isNew == true) {
 			newFabric.querySelector('.label-tags.is-new').classList.remove('hidden');
 		}
-		if (newFabric.isPopular == true) {
+		if (fabric.isPopular == true) {
 			newFabric.querySelector('.label-tags.is-popular').classList.remove('hidden');
 		}
-		if (newFabric.isSoldOut == true) {
+		if (fabric.isSoldOut == true) {
 			newFabric.querySelector('.label-tags.is-soldout').classList.remove('hidden');
 		}
-		if (newFabric.hasLimitedQuantity == true) {
+		if (fabric.hasLimitedQuantity == true) {
 			newFabric.querySelector('.label-tags.has-limited-quantity').classList.remove('hidden');
 		}
 		
 		newFabric.querySelector('.fabric-name').textContent = fabric.title;
 		newFabric.querySelector('.fabric-description').textContent = fabric.description;
 		
-		/*var downloadingImage = new Image();
+		var downloadingImage = new Image();
 		downloadingImage.onload = function(){
-			newFabric.querySelector('.fabric-image').src = this.src;   
-		};*/
+			newFabric.querySelector('.fabric-image').src = this.src;  
+		};		
 		
 		newFabric.querySelector('.fabric-image').setAttribute("realsrc", fabric.image);
-		
+
         // Add fabric to fabric list
         document.querySelector('.fabric-listing').appendChild(newFabric);
 
