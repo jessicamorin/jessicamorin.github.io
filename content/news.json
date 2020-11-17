@@ -1,11 +1,3 @@
 news = `[
-    {
-        "title": "Mon premier marché!",
-        "publish_date": "2020-05-06 00:00:02",
-        "unpublish_date": "2020-12-14 00:00:00",
-        "description": "Ça y est! Tisak à Morin sera à son premier marché le 12-13 décembre 2020 à la Paroisse St-Ambroise",
-        "image": "./images/marche_decembre_2020.jpg",
-        "link": "https://www.facebook.com/events/2165267937109332/",
-        "link_text": "Lien vers l'événement" 
-    }
+
 ]`;
