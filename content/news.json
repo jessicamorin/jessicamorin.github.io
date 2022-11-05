@@ -1,3 +1,11 @@
 news = `[
-
+   {
+        "title": "Mon premier marché!",
+        "publish_date": "2022-11-01 00:00:02",
+        "unpublish_date": "2023-12-14 00:00:00",
+        "description": "Ça y est! Tisak à Morin sera à son premier marché le 19 novembre 2022 au Centre Jean-Claude Malépart!",
+        "image": "https://res.cloudinary.com/tisakamorin/image/upload/v1667683386/march%C3%A9/marche_de_noel_n6vdqw.jpg",
+        "link": "https://www.facebook.com/events/3170551166591261/?ref=newsfeed",
+        "link_text": "Lien vers l'événement" 
+    }
 ]`;

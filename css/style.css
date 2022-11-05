@@ -54,14 +54,32 @@ h6 {
   letter-spacing: 0.1rem;
 }
 
-header.masthead {
+header.masthead_a {
     position: relative;
     overflow: hidden;
     padding-top: calc(0rem + 21px);
     padding-bottom: 7rem;  
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url(https://res.cloudinary.com/tisakamorin/image/upload/v1575418739/IMG_20190429_183740_669_2019-12-03T23_07_22.967_tc8jwo.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url(https://res.cloudinary.com/tisakamorin/image/upload/v1660582986/tisak%20%C3%A0%20morin/background-A-light_zvmod7.png) no-repeat center center fixed;
     background-repeat: no-repeat;
     background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header.masthead_b {
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(0rem + 21px);
+    padding-bottom: 7rem;  
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url(https://res.cloudinary.com/tisakamorin/image/upload/v1660582985/tisak%20%C3%A0%20morin/background-B_light_h3jgk0.png) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 header.masthead .masthead-content {
